@@ -70,4 +70,8 @@
     .productCard {
         flex: 1 90%;
     }
+    .over_image {
+        position: absolute;
+        top:5%;
+        left: 27%;
 }
