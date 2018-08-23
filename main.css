@@ -37,7 +37,21 @@
 }
 .product_sw, .product_qty {
     font-weight: bold;
+    padding-left: 10px;
 }
 .product_footer {
     font-size: 12px;
+}
+.tertiary_productCard h3, .tertiary_productCard p, .secondary_productCard p {
+    margin:0px;
+}
+.secondary_productCard h3 {
+    margin-bottom: 0; 
+}
+.secondary_productCard footer  {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.secondary_productCard, .tertiary_productCard {
+    margin-left: 10px;
 }
