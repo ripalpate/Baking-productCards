@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: content-box;
+}
 .product_container {
     display: flex;
     flex-direction: row;
@@ -33,7 +35,9 @@
     background-color: plum;
     color:brown
 }
-.product_spec, product_price {
+.product_sw, .product_qty {
     font-weight: bold;
-    margin-top: 0;
+}
+.product_footer {
+    font-size: 12px;
 }
