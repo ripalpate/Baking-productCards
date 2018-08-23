@@ -12,10 +12,12 @@
     background-color:antiquewhite;
     box-shadow: 5px 5px 5px gray;
     border:1px solid lightsalmon;
+    border-radius: 10px;
 }
 .product_header {
     border-bottom: 1px solid lightsalmon;
     text-align: center;
+    font-family: 'Dancing Script', cursive;
 }
 .product_image {
     display:block;
@@ -29,6 +31,7 @@
     text-align: justify;
     margin: 10px;
     padding-top: 10px;
+    font-family: 'Playfair Display', serif;
 }
 .product_available {
     width: 100%;
@@ -54,4 +57,21 @@
 }
 .secondary_productCard, .tertiary_productCard {
     margin-left: 10px;
+}
+.primary_productCard {
+    position:relative;
+}
+.over_image {
+    position: absolute;
+    top:5%;
+    left: 22%;
+}
+@media (max-width:599px) {
+    .productCard {
+        flex: 1 90%;
+    }
+    .over_image {
+        position: absolute;
+        top:5%;
+        left: 27%;
 }
